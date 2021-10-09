@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Race Registration</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="registration.html/">
+        <div>
+            <label for="name">First Name:</label>
+            <input type="text" name="first_name" id="name" placeholder="Firs Name">
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+        </div>
+        <h3>Select Race</h3>
+        <div>
+            <ul>
+                <li>
+                    <input type="radio" name="race" id="fun_run" value="fun_run">
+                    <label for="fun_run">Fun Run 5 KM</label>
+                </li>
+                <li>
+                    <input type="radio" name="race" id="half_marathon" value="half_marathon">
+                    <label for="half_marathon">Half Marathon</label>
+                </li>
+                <li>
+                    <input type="radio" name="race" id="full_marathon" value="full_marathon">
+                    <label for="full_marathon">Full Marathon</label>
+                </li>
+            </ul>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="grup_1">Under 18</option>
+                <option value="grup_2">18 - 25</option>
+                <option value="grup_3">26 - 35</option>
+                <option value="grup_4">36 - 45</option>
+                <option value="grup_5">46 plus</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="E-mail" riquired>
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="Password" riquired>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

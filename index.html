@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        MY CHARS - WOW
+    </title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.hmtl">Home</a></li>
+            <li><a href="contatct.html">Contato</a></li>
+            <li><a href="about.html"></a>About</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1> Warrior WoW </h1>
+            <hr>
+            <img src="https://wow.zamimg.com/uploads/screenshots/small/185380.jpg"
+                alt="Imagem de um bravo guerreiro no alto de uma montanha">
+            <p>Combinam força, liderança e vasto conhecimento em armas e armaduras para criar o caos no campo de
+                batalha.<br> Al
+                guns protegem a linha de frente com escudos, segurando o inimigo enquanto seus aliados os auxiliam com
+                feitiços
+                e disparos.</p>
+
+            <h2>Especialidades</h2>
+            <h3>Tank</h3>
+            <p>Um defensor implacável que usa um escudo para proteger a si mesmo e também os aliados.<br>Armas
+                preferidas:
+                machado,
+                maça, espada, com escudo.</p>
+            <h3>Arms</h3>
+            <p>Um experiente mestre de armas, que emprega mobilidade e ataques poderosos para destroçar os
+                inimigos.<br>Armas
+                preferidas: machado, maça e espada de duas mãos.</P>
+            <h3>Fury</h3>
+            <p>Um berserker furioso que desfere uma torrente de ataques para fazer picadinho dos oponentes.<br>Armas
+                preferidas:
+                maça, espada e machado duplo.</p>
+
+            <h2>Selecione uma Especialidade</h2>
+            <form action="spec/">
+                <ul>
+                    <li>
+                        <label for="tank">Tanker</label>
+                        <input type="radio" name="build" id="tank" value="tank">
+                    </li>
+                    <li>
+                        <label for="arms">Arms</label>
+                        <input type="radio" name="build" id="arms" value="arms">
+                    </li>
+                    <li>
+                        <label for="fury">Fury</label>
+                        <input type="radio" name="build" id="fury" value="fury">
+                    </li>
+                    <li>
+                        <button>Selecionar</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+
+        <section>
+            <h2>Facções e Raças</h2>
+            <p>
+            <h3>Aliança</h3>
+            <form action="race/">
+                <label for="aliance_race">Selecione uma Raça</label>
+                <select name="aliance_race" id="aliance_race">
+                    <option value="humano">Humano</option>
+                    <option value="anão">Anão</option>
+                    <option value="draenei">Draenei</option>
+                    <option value="gnomo">Gnomo</option>
+                    <option value="night_elf">Night Elf</option>
+                    <option value="worgen">Worgen</option>
+                    <option value="panda">Panda</option>
+                </select>
+                </p>
+                <p>
+                <H3>Horda</H3>
+                <label for="horda_race">Selecione uma Raça</label>
+                <select name="horda_race" id="horda_race">
+                    <option value="orc">Orc</option>
+                    <option value="troll">Troll</option>
+                    <option value="tauren">Tauren</option>
+                    <option value="blood_elf">Blood Elf</option>
+                    <option value="undead">Undead</option>
+                    <option value="goblin">Goblin</option>
+                    <option value="panda">Panda</option>
+                </select>
+                </p>
+                <button>Selecionar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Tabela de Status</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STATS</th>
+                        <th>MIN</th>
+                        <th>MEDIAN</th>
+                        <th>MAX</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Stamina</th>
+                        <td>456</td>
+                        <td>2677</td>
+                        <td>2986</td>
+                    </tr>
+                    <th>Strength</th>
+                    <td>365</td>
+                    <td>1529</td>
+                    <td>1691</td>
+
+                    <tr>
+                        <th>Versatility</th>
+                        <td>0</td>
+                        <td>1414</td>
+                        <td>1613</td>
+                    </tr>
+                    <tr>
+                        <th>Critical Strike</th>
+                        <td>0</td>
+                        <td>479</td>
+                        <td>1297</td>
+                    </tr>
+                    <tr>
+                        <th>Haste</th>
+                        <td>0</td>
+                        <td>226</td>
+                        <td>1063</td>
+
+                    </tr>
+                    <tr>
+                        <th>Mastery</th>
+                        <td>0</td>
+                        <td>89</td>
+                        <td>852</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Procurar Personagem</h2>
+            <form action="https://worldofwarcraft.com/pt-br/search">
+                <input type="text" name="q">
+                <button>Armory</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span><a href="terms.html">TERMS OF USER</a></span>
+        <span><a href="privacy.html">PRIVACY</a></span>
+    </footer>
+</body>
+
+</html>
