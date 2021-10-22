@@ -2,31 +2,38 @@ body{
     margin: 0px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-   
+h1, h2, h3{
+    font-family: Roboto;
 }
+
+p{
+    font-family:Roboto;
+}
+
+
 .nav-bar{
     height: 30px;
     background-color: #a19781;
+    text-align: center;
 }
-.nav-opt > a:hover{
-    color: #070f4e;
 
-}
-.nav-opt{
+.nav-bar > a{
+    color: white;
     font-family: Roboto;
     font-size: 20px;
     font-weight: bolder;
     padding-left: 100px;
 }
+.nav-bar > a:hover{
+    color: #070f4e;
+}
 .warrior{
     width: 210px;
     border: 1px black solid;
     text-align: center;
-    background-color: #8f9092;
+    background-color: #d3d4d6;
     padding: 20px;
+    margin-left: 50%;
 }
 .char-name{
     color: #070f4e;
@@ -35,4 +42,19 @@ a{
     width: 200px;
     border: 5px #f96d00  solid;
     border-radius: 50%;
+}
+
+.spec-descri{
+    width: 100%;
+    background-color: #d3d4d6;
+    text-align: center;
+    
+}
+
+.spec{
+    width:220px;
+    height: 220px;
+    display: inline-block;
+    border: 1px black solid;
+    margin-left: 100px;
 }
